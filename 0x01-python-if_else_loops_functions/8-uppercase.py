@@ -4,7 +4,7 @@ def to_uper(character):
         return (ord(character) - 32)
     else:
         return ord(character)
-::w
+
 def uppercase(string):
     string_new = ""
     for character in string:
