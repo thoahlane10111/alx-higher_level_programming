@@ -11,4 +11,3 @@ request(url, function (error, response, body) {
   // log title if successful, log error if not.
   console.log(error || JSON.parse(body).title);
 });
-
